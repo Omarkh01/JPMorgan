@@ -50,6 +50,7 @@ def getRatio(price_a, price_b):
 if __name__ == "__main__":
 
 	# Query the price once every N seconds.
+	# Updated to this N 1
 	for _ in range(N):
 		quotes = json.loads(urllib.request.urlopen(QUERY.format(random.random())).read())
 
