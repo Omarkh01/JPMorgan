@@ -51,7 +51,11 @@ if __name__ == "__main__":
 
 	# Query the price once every N seconds.
 	# Updated to this N 1
+<<<<<<< HEAD
 	# conflict line Bob 
+=======
+	# conflict line A
+>>>>>>> 2dd72c37de121e3b82fd02f3176072b218e09596
 	for _ in range(N):
 		quotes = json.loads(urllib.request.urlopen(QUERY.format(random.random())).read())
 
